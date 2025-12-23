@@ -12,8 +12,8 @@ input = sys.argv[1]
 output = sys.argv[2]
 
 
-
-file_output,output_extention = output.split('.')
+try:
+    file_output,output_extention = output.split('.')
 except:
    sys.exit('invalid input')
 #check if the file are .jpg ,png ,jpeg 
