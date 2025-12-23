@@ -1,19 +1,17 @@
 import sys 
 from PIL import Image, ImageOps
 
-##only two input accepted 
-
 
 if len(sys.argv) > 3:
     sys.exit('Too many command-line arguments')
 elif len(sys.argv) < 3:
     sys.exit('Too few command-line arguments')
 
+
 input = sys.argv[1]
 output = sys.argv[2]
 
-try:
-    file_input,input_extention = input.split('.')
+
 
     file_output,output_extention = output.split('.')
 except:
