@@ -1,14 +1,14 @@
 from bank import value
 
 def main():
-    test_hello()
+    test_()
     test_H_words()
     test_else_words()
 
 
-def test_hello():
+def test_():
     assert value("Hello") == 0
-    assert value("hello, Newman") == 0
+    assert value(", Newman") == 0
 
 def test_H_words():
     assert value("Hey") == 20

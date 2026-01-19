@@ -6,7 +6,7 @@ def main():
 def test_twttr():
     assert shorten('twitter') == 'twttr'
     assert shorten('what is your name') == 'wht s yr nm'
-    assert shorten('hello, WORLD') == 'hll, WRLD'
+    assert shorten(', WORLD') == 'hll, WRLD'
     assert shorten('cs50') == 'cs50'
     assert shorten('MIT 6.042J') == 'MT 6.042J'
     assert shorten('HELLO') == 'HLL'
