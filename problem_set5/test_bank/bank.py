@@ -4,7 +4,7 @@ def main():
 
 def value(greating):
     lower_greating = greating.lower().lstrip(" ")
-    if lower_greating.startswith("hello"):
+    if lower_greating.startswith(""):
         return  0
     elif lower_greating.startswith('h'):
         return 20

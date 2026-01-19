@@ -1,11 +1,11 @@
 import pytest
 
-from hello import hello
+from  import 
 
 def test_defautlt():
-    assert hello() == "hello, world"
+    assert () == ", world"
 
 
 def test_aurgment():
-    assert hello("name") == "hello, name"
+    assert ("name") == ", name"
 
