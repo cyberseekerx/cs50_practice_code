@@ -18,5 +18,6 @@ percentage_head = head / (head + tails) * 100
 percentage_tails = tails / (head + tails) * 100
 print()
 print("count:", +count)
+print()
 print("Heads:", +head, f"({percentage_head:.2f}%)")
 print("tails:", +tails, f"({percentage_tails:.2f}%)")
