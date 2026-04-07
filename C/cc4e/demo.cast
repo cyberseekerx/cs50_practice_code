@@ -1,0 +1,7 @@
+{"version":3,"term":{"cols":76,"rows":38,"type":"tmux-256color","version":"tmux 3.6a","theme":{"fg":"#cdd6f4","bg":"#1e1e2e","palette":"#45475a:#f38ba8:#a6e3a1:#f9e2af:#89b4fa:#f5c2e7:#94e2d5:#bac2de:#585b70:#f38ba8:#a6e3a1:#f9e2af:#89b4fa:#f5c2e7:#94e2d5:#a6adc8"}},"timestamp":1774954546,"env":{"SHELL":"/usr/bin/bash"}}
+[0.109, "o", "\u001b]0;ayush@omarchy:~/Documents/work/cs50_practice_code/C/cc4e\u0007"]
+[0.004, "o", "\u001b[?2004h\r\n"]
+[0.000, "o", "\u001b[1;36m…/C/cc4e\u001b[0m \u001b[3;36mmain\u001b[0m \u001b[36m ? \u001b[1m❯\u001b[0m \r\u001b[1;36m…/C/cc4e\u001b[0m \u001b[3;36mmain\u001b[0m \u001b[36m ? \u001b[1m❯\u001b[0m "]
+[2.988, "o", "\u001b[?2004l\r\r\n"]
+[0.000, "o", "exit\r\n"]
+[0.000, "x", "0"]
