@@ -1,0 +1,8 @@
+  File: C/problem_set1/hello.c
+  Size: 70        	Blocks: 8          IO Block: 4096   regular file
+Device: 0,55	Inode: 4135843     Links: 1
+Access: (0644/-rw-r--r--)  Uid: ( 1000/   ayush)   Gid: ( 1000/   ayush)
+Access: 2026-04-07 12:11:52.733497857 +0530
+Modify: 2026-03-31 12:19:04.536575431 +0530
+Change: 2026-03-31 12:19:04.536575431 +0530
+ Birth: 2026-03-31 12:19:04.536575431 +0530

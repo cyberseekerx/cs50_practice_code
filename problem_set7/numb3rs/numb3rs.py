@@ -1,14 +1,15 @@
 import re
-import sys
 
 
 def main():
-    print(validate(input("IPv4 Address: ")))
+    while True:
+        print(validate(input("IPv4 Address: ")))
 
 
 def validate(ip):
-    ex = r"([0-1]|[0-9])"
-    matches = re.search(f"^{ex}\.$", ip)
+    ip = ip.strip()
+    ex = r"(([0-9])|([1-9][0-9])|(([1][0-9][0-9])|[2]([5][0-5]|[0-4][0-9])))"
+    matches = re.search(rf"^({ex}\.){{3}}{ex}$", ip)
     if matches:
         return True
     else:

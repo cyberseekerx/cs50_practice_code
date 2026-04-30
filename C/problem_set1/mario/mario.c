@@ -10,17 +10,19 @@ int main(void)
 {   
     int height;
     do
-    {
+    {  
         height = get_int("Height: ");
-        printf("");
+       
     }
-    while (height <= 0 | height > 8);
+    while (height <= 0 | height > 60);
+  
+    
     
     for (int row = 0; row < height; row++)
     {
         printf_spaces(height,row);
         printf_row(row);
-        two_spaces(BLANK);
+       two_spaces(BLANK);
         printf_row(row);
         printf("\n");
 

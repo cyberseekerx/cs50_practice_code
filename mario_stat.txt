@@ -1,0 +1,8 @@
+  File: C/problem_set1/mario/mario.c
+  Size: 840       	Blocks: 8          IO Block: 4096   regular file
+Device: 0,55	Inode: 4473403     Links: 1
+Access: (0644/-rw-r--r--)  Uid: ( 1000/   ayush)   Gid: ( 1000/   ayush)
+Access: 2026-04-14 15:19:01.022930558 +0530
+Modify: 2026-04-08 11:28:15.547129812 +0530
+Change: 2026-04-08 11:28:15.548174702 +0530
+ Birth: 2026-04-08 11:28:15.547129812 +0530
