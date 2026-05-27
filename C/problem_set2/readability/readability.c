@@ -1,26 +1,82 @@
-#include <cs50.h>
 #include <ctype.h>
+#include <cs50.h>
+#include <math.h>
 #include <stdio.h>
 #include <string.h>
 
+int count_letters(string text,int len);
+int count_word(string text,int len);
+int count_sen(string text, int len);
+int assign_grade(int round_index);
 int main(void)
 {
-	int letter = 0;
-	int word = 0;
-	int sen = 0;
-	printf("hi mom\n");
 	// take user input
 	string text = get_string("Text: ");
-	for (int i = 0, len = strlen(text); i < len; i++) {
-		if (isblank(text[i])) {
-			word++;
+	int len = strlen(text);
+	int letter = count_letters(text, len);
+	int word = count_word(text, len);
+	int sen = count_sen(text,len);
+	//cal index to rouna 
+	float L = (float) letter / word * 100;
+	float S = (float) sen / word * 100;
+	float index = 0.0588 * L - 0.296 * S - 15.8;
+	int round_index = round(index);
+	assign_grade(round_index);
+}
+int count_letters(string text, int len )
+{
+	int count = 0;
+	for (int i = 0; i < len; i++)
+	{
+		if(isalpha(text[i]))
+		{
+			count++;
 		}
-		if (isalpha(text[i])) {
-			letter++;
-		}
-		if (text[i] == '.' || text[i] == '?' || text[i] == '!') {
-			sen++;
+	}	
+	return count;
+}
+
+int count_word(string text, int len)
+{
+	int count = 1;
+	for (int i = 0; i < len; i++)
+	{
+		if (isblank(text[i]))
+		{
+			count++;
 		}
 	}
-	printf("letter:%i\nword:%i\nsentence:%i", letter, word, sen);
+	return count;
 }
+int count_sen(string text, int len)
+{
+	int count = 0;
+	for (int i = 0; i < len; i++)
+	{
+		if (text[i] =='.' || text[i] == '?' || text[i] == '!')
+		{
+			count ++;
+		}
+	}
+	return count;
+}
+
+int assign_grade(int round_index)
+{
+	if (round_index < 1)
+	{
+		printf("Before Grade 1\n");
+	}
+	else if (round_index <= 16)
+	{
+		printf("Grade %i\n",round_index);
+	}
+	else
+      {
+      		printf("Grade 16+\n");
+      }
+	return 0;
+}
+
+
+
