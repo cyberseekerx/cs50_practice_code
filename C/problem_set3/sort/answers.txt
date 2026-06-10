@@ -1,0 +1,11 @@
+sort1 uses: bubble search
+
+How do you know?: sorted files have the slowest run time because Linear only has to run once to know it's sorted
+
+sort2 uses: merge sort
+
+How do you know?: All the input files have similar run time and also merge sort is the fasted sort algorithm
+
+sort3 uses: Linear sort 
+
+How do you know?: faster than Linear search in random and reversed input files but not in sorted files

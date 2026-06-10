@@ -1,0 +1,72 @@
+random5000.txt output
+
+real	0m0.003s
+user	0m0.002s
+sys	0m0.001s
+
+
+
+random10000.txt output
+
+real	0m0.007s
+user	0m0.001s
+sys	0m0.006s
+
+
+
+random50000.txt output
+
+real	0m0.033s
+user	0m0.008s
+sys	0m0.025s
+
+
+
+reversed5000.txt output
+
+real	0m0.003s
+user	0m0.000s
+sys	0m0.003s
+
+
+
+reversed10000.txt output
+
+real	0m0.006s
+user	0m0.001s
+sys	0m0.005s
+
+
+
+reversed50000.txt output
+
+real	0m0.031s
+user	0m0.006s
+sys	0m0.025s
+
+
+
+sorted5000.txt output
+
+real	0m0.003s
+user	0m0.001s
+sys	0m0.002s
+
+
+
+sorted10000.txt output
+
+real	0m0.006s
+user	0m0.000s
+sys	0m0.006s
+
+
+
+sorted50000.txt output
+
+real	0m0.031s
+user	0m0.008s
+sys	0m0.022s
+
+
+
